@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt'
 import UserModel from '../models/UserModel.js'
 
 const router = express.Router();
-
+ 
 router.get('/', (req,res) => {
     res.send('Hello This is')
 })
