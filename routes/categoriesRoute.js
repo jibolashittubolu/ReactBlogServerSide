@@ -2,7 +2,6 @@ import express from 'express';
 import CategoryModel from '../models/CategoryModel.js'
 
 const router = express.Router() 
-
 // router.post('/addcategory', (req, res) => {
 //     const newCategory = await new CategoryModel(req.body)
 //     try{
