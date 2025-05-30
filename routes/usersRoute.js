@@ -5,6 +5,7 @@ import bcrypt from 'bcrypt'
 
 const router = express.Router()
 
+
 //UPDATE
 router.put('/:id', async (req, res) => {
     if (req.body.userID === req.params.id){
