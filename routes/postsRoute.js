@@ -4,6 +4,8 @@ import UserModel from '../models/UserModel.js'
 
 const router = express.Router()
 
+
+
 //CREATE POST
 router.post('/create', async(req, res) => {
     const newPost = await new PostModel(req.body)
